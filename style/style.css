@@ -1,0 +1,240 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
+  margin: 20px 100px;
+}
+body .header {
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+body .header .header_companyName {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+body .header .header_navigationBar {
+  display: flex;
+  align-items: center;
+}
+body .header .header_navigationBar .header_navigationBar_list {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+body .header .header_navigationBar .header_navigationBar_list .header_navigationBar_list_elem {
+  display: inline;
+}
+body .header .header_navigationBar .header_navigationBar_list .header_navigationBar_list_elem a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: rgb(215, 215, 215);
+}
+body .header .header_navigationBar .header_navigationBar_list .header_navigationBar_list_elem .header_navigationBar_list_elem__active {
+  color: rgb(255, 255, 255);
+}
+body .header .header_buttons {
+  align-self: center;
+  height: 50px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+body .header .header_buttons .header_LogIn_LogIn {
+  background-color: rgb(30, 30, 30);
+  color: rgb(215, 215, 215);
+  font-size: 1.1em;
+  padding: 10px;
+  width: 90px;
+  border: none;
+}
+body .header .header_buttons .header_LogIn_SignUp {
+  background-color: rgb(11, 11, 16);
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  width: 110px;
+  font-size: 1.1em;
+}
+body .header .header_buttons .header_LogIn_SignUp:hover {
+  background-color: #111119;
+}
+body main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 30px;
+  margin-top: 30px;
+  height: 750px;
+}
+body main .main_module1 {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 50px;
+  padding-left: 25px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: rgb(251, 247, 244);
+  color: rgb(11, 11, 16);
+  border-radius: 30px;
+}
+body main .main_module1 .main_module1_para {
+  border: rgb(11, 11, 16) 2px solid;
+  padding: 5px 15px;
+  border-radius: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body main .main_module1 .main_module1_tittle {
+  font-size: 5em;
+}
+body main .main_module1 .main_module1_description {
+  font-weight: 400;
+  line-height: 40px;
+}
+body main .main_module1 .main_module1_ImageAndButton {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+body main .main_module1 .main_module1_ImageAndButton .main_module1_getStartedLink {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(243, 237, 91);
+  padding: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(11, 11, 16);
+  font-weight: 600;
+}
+body main .main_module1 .main_module1_ImageAndButton .main_module1_image {
+  border-radius: 7% 0 7% 0;
+}
+body main .main_module2 {
+  color: rgb(11, 11, 16);
+  background-color: rgb(66, 240, 199);
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column wrap;
+}
+body main .main_module2 .main_module2_bar {
+  border-radius: 12px 12px 0 0;
+  padding: 10px 10px 5px 20px;
+  background-color: rgb(30, 30, 30);
+}
+body main .main_module2 .main_module2_analytic {
+  padding: 10px 20px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px 250px;
+  flex-flow: wrap;
+}
+body main .main_module2 .main_module2_analytic .main_module2_analytic_text {
+  font-weight: 600;
+  display: flex;
+}
+body main .main_module2 .main_module2_analytic .main_module2_analytic_text img {
+  align-self: center;
+  width: 30px;
+  height: 30px;
+}
+body main .main_module2 .main_module2_analytic .main_module2_analytic_text .main_module2_analytic_text_big {
+  font-weight: 900;
+  font-size: 2em;
+}
+body main .main_module2 .main_module2_analytic .main_module2_graphic img {
+  width: 225px;
+  justify-self: center;
+}
+body main .main_module3 {
+  background-color: rgb(243, 237, 91);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+}
+body main .main_module3 .main_module3_header {
+  display: flex;
+  justify-content: space-between;
+}
+body main .main_module3 .main_module3_header .main_module3_header_text {
+  color: rgb(11, 11, 16);
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-left: 15px;
+  align-self: center;
+}
+body main .main_module3 .main_module3_header .main_module3_header_list {
+  list-style: none;
+  display: inline-flex;
+  gap: 20px;
+  padding: 0;
+}
+body main .main_module3 .main_module3_header .main_module3_header_list .main_module3_header_list_elem {
+  color: rgb(11, 11, 16);
+  align-self: center;
+}
+body main .main_module3 .main_module3_header .main_module3_header_list .main_module3_header_list_elem__active {
+  font-weight: 700;
+}
+body main .main_module3 .main_module3_header .main_module3_header_toolbar {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+body main .main_module3 .main_module3_graphic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+body main .main_module3 .main_module3_graphicDescription {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_firstParam, body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_secondParam {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_firstParam .main_module3_graphicDescription_secondParam_text, body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_firstParam .main_module3_graphicDescription_firstParam_text, body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_secondParam .main_module3_graphicDescription_secondParam_text, body main .main_module3 .main_module3_graphicDescription .main_module3_graphicDescription_secondParam .main_module3_graphicDescription_firstParam_text {
+  color: rgb(11, 11, 16);
+  font-size: 1.2em;
+}
+body footer {
+  display: flex;
+}
+body footer .footer_div .footer_div_text {
+  width: 300px;
+  color: grey;
+}
+body footer .footer_div .footer_div_text .footer_div_text__Bold {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+body footer .footer_div_line {
+  width: 200px;
+  align-self: center;
+  margin-left: 100px;
+}
+body footer .footer_div_line hr {
+  background-color: grey;
+  color: grey;
+  border: none;
+  height: 1px;
+}
+body footer .footer_div_companies {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 30px;
+  width: 100%;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
